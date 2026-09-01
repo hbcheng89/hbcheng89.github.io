@@ -1,8 +1,12 @@
-// MathJax Configuration
-//
-// v2 to v3 upgrade notes:
-// - The CommonHTML.linebreaks option is not yet implemented (but may be in a future release)
-// - The TeX.noUndefined.attributes option is not yet implemented (but may be in a future release)
+// Configure local MathJax rendering and reveal abstracts only after typesetting.
+const revealMathContent = () => {
+  document.querySelectorAll('.math-pending').forEach((element) => {
+    element.classList.remove('math-pending');
+  });
+};
+
+window.setTimeout(revealMathContent, 4000);
+
 window.MathJax = {
   tex: {
     inlineMath: [
@@ -14,9 +18,14 @@ window.MathJax = {
       ['\\[', '\\]'],
     ],
     processEscapes: false,
-    packages: {'[+]': ['noerrors']},
   },
-  loader: {
-    load: ['[tex]/noerrors'],
+  svg: {
+    fontCache: 'global',
+  },
+  startup: {
+    pageReady: () => MathJax.startup.defaultPageReady().then(
+      revealMathContent,
+      revealMathContent,
+    ),
   },
 };

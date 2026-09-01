@@ -1,0 +1,14 @@
+[0] Config.pm:328> INFO - This is Biber 2.21 running in TOOL mode
+[0] Config.pm:331> INFO - Logfile is 'content/publication/practical-honey-password-vaults/cite.bib.blg'
+[39] biber-darwin:342> INFO - === Tue Sep  1, 2026, 09:24:58
+[55] Biber.pm:4674> INFO - Looking for bibtex file 'content/publication/practical-honey-password-vaults/cite.bib'
+[56] bibtex.pm:1713> INFO - LaTeX decoding ...
+[58] bibtex.pm:1519> INFO - Found BibTeX data source 'content/publication/practical-honey-password-vaults/cite.bib'
+[88] Biber.pm:1709> INFO - Datamodel validation starting
+[89] Biber.pm:1759> INFO - Datamodel validation complete
+[92] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[92] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[92] Biber.pm:4307> INFO - Sorting list 'tool/global//global/global/global' of type 'entry' with template 'tool' and locale 'en_US'
+[92] Biber.pm:4313> INFO - No sort tailoring available for locale 'en_US'
+[94] bibtex.pm:440> INFO - Writing '/tmp/practical-honey-password-vaults-validated.bib' with encoding 'UTF-8'
+[94] bibtex.pm:481> INFO - Output to /tmp/practical-honey-password-vaults-validated.bib

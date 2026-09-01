@@ -1,0 +1,14 @@
+[0] Config.pm:328> INFO - This is Biber 2.21 running in TOOL mode
+[0] Config.pm:331> INFO - Logfile is 'content/publication/privacy-amplification-shuffling/cite.bib.blg'
+[40] biber-darwin:342> INFO - === Tue Sep  1, 2026, 09:25:01
+[57] Biber.pm:4674> INFO - Looking for bibtex file 'content/publication/privacy-amplification-shuffling/cite.bib'
+[58] bibtex.pm:1713> INFO - LaTeX decoding ...
+[59] bibtex.pm:1519> INFO - Found BibTeX data source 'content/publication/privacy-amplification-shuffling/cite.bib'
+[76] Biber.pm:1709> INFO - Datamodel validation starting
+[77] Biber.pm:1759> INFO - Datamodel validation complete
+[80] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[80] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[80] Biber.pm:4307> INFO - Sorting list 'tool/global//global/global/global' of type 'entry' with template 'tool' and locale 'en_US'
+[80] Biber.pm:4313> INFO - No sort tailoring available for locale 'en_US'
+[81] bibtex.pm:440> INFO - Writing '/tmp/privacy-amplification-shuffling-validated.bib' with encoding 'UTF-8'
+[81] bibtex.pm:481> INFO - Output to /tmp/privacy-amplification-shuffling-validated.bib
